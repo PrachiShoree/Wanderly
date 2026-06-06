@@ -1,0 +1,221 @@
+.frame-wrapper14 {
+  width: 1338px;
+  padding: 0 2px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 40px;
+  color: #323c34;
+  font-family: Poppins;
+}
+.frame-parent21,
+.frame-wrapper14,
+.journeys-youll-love-wrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent21 {
+  flex: 1;
+  flex-direction: column;
+  gap: 35px;
+}
+.journeys-youll-love-wrapper {
+  padding: 0 462px;
+  box-sizing: border-box;
+}
+.journeys-youll-love-container {
+  position: relative;
+}
+.journeys-youll {
+  font-weight: 600;
+}
+.love {
+  font-size: 48px;
+  font-family: Playball;
+  color: #890009;
+}
+.frame-parent22 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 100%;
+}
+.frame-parent23,
+.frame-parent24 {
+  display: flex;
+  flex-direction: column;
+}
+.frame-parent23 {
+  width: 308px;
+  align-items: flex-start;
+  gap: 20.5px;
+  text-align: left;
+  font-size: 32px;
+  color: #f4e1c1;
+  font-family: Poppins;
+}
+.frame-parent24 {
+  flex: 1;
+  align-items: flex-end;
+  gap: 18px;
+  max-width: calc(100% - 328px);
+}
+.frame-parent25,
+.rectangle-parent27 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-parent25 {
+  align-self: stretch;
+  gap: 20px;
+  text-align: left;
+  font-size: 32px;
+  color: #f4e1c1;
+  font-family: Poppins;
+}
+.rectangle-parent27 {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 184px 19px 12px;
+  box-sizing: border-box;
+  position: relative;
+  isolation: isolate;
+  gap: 1px;
+  min-width: 368px;
+}
+.frame-child32 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.bir-billing {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.tours-wrapper {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 3px;
+  flex-shrink: 0;
+  font-size: 24px;
+}
+.tours3 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-style: italic;
+  font-weight: 300;
+  font-family: inherit;
+  z-index: 1;
+}
+.rectangle-parent28 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 184px 20px 12px;
+  box-sizing: border-box;
+  position: relative;
+  isolation: isolate;
+  gap: 1px;
+  min-width: 401px;
+  max-width: 100%;
+}
+.tours4 {
+  margin: 0;
+  position: relative;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  font-family: inherit;
+  z-index: 1;
+  flex-shrink: 0;
+}
+.frame-parent27 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  gap: 21px;
+  max-width: 100%;
+}
+@media screen and (max-width: 1410px) {
+  .journeys-youll-love-wrapper {
+    padding-left: 231px;
+    padding-right: 231px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .frame-parent23 {
+    display: none;
+  }
+  .frame-parent24 {
+    max-width: 100%;
+  }
+  .frame-parent25 {
+    flex-wrap: wrap;
+  }
+  .rectangle-parent27 {
+    flex: 1;
+  }
+  .frame-parent27 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 825px) {
+  .frame-parent21 {
+    gap: 17px;
+  }
+  .journeys-youll-love-wrapper {
+    padding-left: 115px;
+    padding-right: 115px;
+    box-sizing: border-box;
+  }
+  .journeys-youll-love-container {
+    font-size: 32px;
+  }
+  .rectangle-parent27 {
+    min-width: 100%;
+  }
+  .bir-billing {
+    font-size: 26px;
+  }
+  .rectangle-parent28 {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .journeys-youll-love-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .journeys-youll-love-container {
+    font-size: 24px;
+  }
+  .bir-billing,
+  .tours3,
+  .tours4 {
+    font-size: 19px;
+  }
+}

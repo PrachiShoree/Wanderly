@@ -1,0 +1,116 @@
+.frame-section {
+  width: 1326px;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 13px 148px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 64px;
+  color: #f4e1c1;
+  font-family: Poppins;
+}
+.frame-div {
+  flex: 1;
+  flex-direction: column;
+  gap: 70px;
+  max-width: 100%;
+}
+.frame-div,
+.frame-header,
+.wanderly-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.frame-header {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: left;
+  font-size: 40px;
+  color: #f4e1c1;
+  font-family: Playball;
+}
+.wanderly-wrapper {
+  width: 209px;
+  flex-direction: column;
+  padding: 21px 0 0;
+  box-sizing: border-box;
+}
+.wanderly {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.frame-child2,
+.rectangle-container {
+  height: 58px;
+  width: 189px;
+  border-radius: 50px;
+  border: 3px solid #f4e1c1;
+  box-sizing: border-box;
+}
+.rectangle-container {
+  display: flex;
+  align-items: flex-start;
+  padding: 5px 28px 8px;
+  cursor: pointer;
+  z-index: 1;
+  text-align: center;
+  font-size: 20px;
+  color: #fff;
+  font-family: Poppins;
+}
+.frame-child2 {
+  position: relative;
+  display: none;
+  flex-shrink: 0;
+}
+.every-destination-has-container,
+.explore-now {
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.explore-now {
+  font-weight: 500;
+  min-width: 125.1px;
+}
+.every-destination-has-container {
+  width: 990px;
+  height: 192px;
+  text-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  max-width: 100%;
+}
+.every-destination-has {
+  font-weight: 800;
+}
+.find-yours {
+  font-family: Playball;
+}
+@media screen and (max-width: 825px) {
+  .frame-section {
+    padding-bottom: 96px;
+    box-sizing: border-box;
+  }
+  .frame-div {
+    gap: 35px;
+  }
+  .every-destination-has-container {
+    font-size: 51px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frame-div {
+    gap: 17px;
+  }
+  .every-destination-has-container {
+    font-size: 38px;
+  }
+}

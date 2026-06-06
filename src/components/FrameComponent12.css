@@ -1,0 +1,195 @@
+.frame-parent12 {
+  height: 536.1px;
+  flex: 1;
+  position: relative;
+  min-width: 282px;
+  max-width: 307px;
+  text-align: center;
+  font-size: 24px;
+  color: #323c34;
+  font-family: Poppins;
+}
+.frame-child15,
+.rectangle-parent13 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 30px;
+  background-color: #000;
+  width: 307.1px;
+  height: 381px;
+}
+.frame-child15 {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.frame-child16 {
+  position: absolute;
+  top: 260.9px;
+  left: 0;
+  border-radius: 0 0 30px 30px;
+  background-color: #d9d9d9;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  width: 307.1px;
+  height: 120.1px;
+  z-index: 1;
+}
+.frame-child17,
+.rectangle-parent14 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.rectangle-parent14 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 13px 15px 0;
+  box-sizing: border-box;
+  isolation: isolate;
+  gap: 365px;
+}
+.frame-child17 {
+  margin: 0 !important;
+  right: 0;
+  border-radius: 30px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  z-index: 2;
+}
+.frame-parent13 {
+  margin-right: -20px;
+  width: 317px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 8px 0 12.1px;
+  box-sizing: border-box;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.frame-parent14,
+.rectangle-parent15 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.frame-parent14 {
+  flex-direction: column;
+  gap: 3px;
+}
+.rectangle-parent15 {
+  position: relative;
+  isolation: isolate;
+}
+.frame-child18 {
+  height: 120.1px;
+  width: calc(100% - 9.9px);
+  position: absolute;
+  margin: 0 !important;
+  right: 4.9px;
+  bottom: -83.1px;
+  left: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 0 0 30px 30px;
+  background-color: #f4e1c1;
+  z-index: 3;
+  flex-shrink: 0;
+}
+.himalayan-adventure {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 29px;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 4;
+  flex-shrink: 0;
+}
+.days-6-nights-wrapper {
+  display: flex;
+  align-items: flex-start;
+  padding: 0 76px;
+  font-size: 20px;
+}
+.days-6 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-style: italic;
+  font-weight: 300;
+  font-family: inherit;
+  z-index: 4;
+}
+.frame-wrapper10,
+.parent {
+  display: flex;
+  align-items: flex-start;
+}
+.frame-wrapper10 {
+  justify-content: flex-end;
+  padding: 0 35px;
+  font-size: 20px;
+}
+.parent {
+  gap: 16px;
+}
+.h3 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-style: italic;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 4;
+}
+.rectangle-parent16 {
+  border-radius: 50px;
+  background-color: #890009;
+  display: flex;
+  align-items: flex-start;
+  padding: 0 23px 0 24px;
+  z-index: 4;
+  color: #fff;
+}
+.book-now,
+.frame-child19 {
+  position: relative;
+  flex-shrink: 0;
+}
+.frame-child19 {
+  height: 29px;
+  width: 143px;
+  border-radius: 50px;
+  background-color: #890009;
+  display: none;
+}
+.book-now {
+  font-weight: 300;
+  z-index: 5;
+}
+@media screen and (max-width: 450px) {
+  .rectangle-parent14 {
+    gap: 182px;
+  }
+  .himalayan-adventure {
+    font-size: 19px;
+    line-height: 23px;
+  }
+  .days-6-nights-wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .days-6,
+  .h3 {
+    font-size: 16px;
+  }
+}
